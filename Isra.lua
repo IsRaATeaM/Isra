@@ -137,7 +137,7 @@ print([[
                                
 > CH › @IsRaA_TeaM
 ~> DEVELOPER › @mokok7
-~~> Source Version 3.0
+~~> Source Version 1.0
 لا ابرئ الذمة لأي شخص يأخذ حرفاً او رقما من ملفي ، ايٍ كان الشخص لن ابرئ الذمة لهُ
 ]])
 sudos = dofile("./Info.lua") 
@@ -1251,7 +1251,7 @@ if text == 'تحديث السورس ✯' and DevIsra(msg) and ChanSub(msg) then
 send(msg.chat_id_, msg.id_,'✯︙جارٍ الان تحديث السورس الى اخر اصدار')
 os.execute('rm -rf Isra.lua')
 os.execute('wget https://raw.githubusercontent.com/IsRaATeaM/Isra/main/Isra.lua')
-send(msg.chat_id_, msg.id_,'✯︙تم تحديث السورس \n✯︙لديك اخر اصدار لسورس وطن\n✯︙الاصدار » { v 3.0 }')
+send(msg.chat_id_, msg.id_,'✯︙تم تحديث السورس \n✯︙لديك اخر اصدار لسورس وطن\n✯︙الاصدار » { v 1.0 }')
 dofile('Isra.lua')  
 end
 
@@ -1446,7 +1446,7 @@ return false
 end
 if text == 'الاصـدار ✯' and DevIsra(msg) and ChanSub(msg) then
 database:del(bot_id..'Srt:Bot') 
-send(msg.chat_id_, msg.id_,'✯︙اصدار سورس وطن \n✯︙الاصدار »{ v 3.0 }')
+send(msg.chat_id_, msg.id_,'✯︙اصدار سورس وطن \n✯︙الاصدار »{ v 1.0 }')
 end
 if text == "ضع اسم للبوت ✯" and DevIsra(msg) and ChanSub(msg) then
 database:setex(bot_id..'Set:Name:Bot'..msg.sender_user_id_,300,true) 
@@ -2686,7 +2686,7 @@ if text == 'تحديث السورس' and ChanSub(msg) and DevIsra(msg) and ChanS
 send(msg.chat_id_, msg.id_,'✯︙جارٍ الان تحديث السورس الى اخر اصدار')
 os.execute('rm -rf Isra.lua')
 os.execute('wget https://raw.githubusercontent.com/IsRaATeaM/Isra/main/Isra.lua')
-send(msg.chat_id_, msg.id_,'✯︙تم تحديث السورس \n✯︙لديك اخر اصدار لسورس وطن\n✯︙الاصدار » { v 3.0 }')
+send(msg.chat_id_, msg.id_,'✯︙تم تحديث السورس \n✯︙لديك اخر اصدار لسورس وطن\n✯︙الاصدار » { v 1.0 }')
 dofile('Isra.lua')  
 end
 if text == 'تحديث المتجر' and ChanSub(msg) and DevIsra(msg) and ChanSub(msg) then
@@ -2982,7 +2982,7 @@ end,nil)
 end
 
 if text == 'السورس' or text == 'سورس' or text == 'يا سورس' or text == 'ياسورس' and ChanSub(msg) then
-Text = "[⦑ Welcome to Source ⦒](t.me/IsRaA_TeaM)\n[✯ ⦑ SOURCE Isra ⦒](t.me/IsRaA_TeaM)\n✯ Source version : 3.0"
+Text = "[⦑ Welcome to Source ⦒](t.me/IsRaA_TeaM)\n[✯ ⦑ SOURCE Isra ⦒](t.me/IsRaA_TeaM)\n✯ Source version : 1.0"
 keyboard = {} 
 keyboard.inline_keyboard = {
 {{text = '𝒄𝒉𝒂𝒏𝒏𝒆𝒍 𝒔𝒐𝒖𝒓𝒄𝒆',url="t.me/IsRaA_TeaM"},
@@ -3013,7 +3013,7 @@ if text == 'جلب ملف السورس' and ChanSub(msg) then
 if not DevIsra(msg) then
 send(msg.chat_id_, msg.id_,'✯︙للمطور الاساسي فقط ')
 else
-sendDocument(msg.chat_id_, msg.id_, 0, 1, nil, './Isra.lua', '✯︙نسخة ملف سورس وطن\n✯︙اصدار *3.0*')
+sendDocument(msg.chat_id_, msg.id_, 0, 1, nil, './Isra.lua', '✯︙نسخة ملف سورس وطن\n✯︙اصدار *1.0*')
 end 
 end
 if text == 'جلب ملف الردود' and ChanSub(msg) then
